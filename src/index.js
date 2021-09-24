@@ -25,10 +25,8 @@ function calculateWinner(squares) {
 }
 
 function Square(props) {
-    let index = 0;
     return (
         <button
-            key={index++}
             className={props.className}
             onClick={props.onClick}
         >
